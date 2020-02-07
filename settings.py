@@ -29,11 +29,9 @@ class Settings(object):
     bitfinex_ws_host = "api.bitfinex.com"
     bitfinex_ws_port = 443
 
-    chainrift_ws_host = "ws.21mil.com"
+    chainrift_ws_host = "ws.chainrift.com"
     chainrift_ws_port = 443
-    #chainrift_ws_host = "localhost"
-    #chainrift_ws_port = 51735
-
+    
     # Do not touch
     tickerPrices = {}
     for pair in chainRiftTickers.values():
